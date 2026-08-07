@@ -1,4 +1,4 @@
-#Steps to setup the enviornment
+<h1>Steps to setup the enviornment</h1>
 
 #Create new envionment variable
 
@@ -50,12 +50,13 @@ deactivate
 
 Given your goal of becoming an AI Forward Deployment Engineer, I'd install these in phases:
 
-Phase	            Packages
-Core Python	        numpy, pandas, matplotlib, seaborn, scipy
-Machine Learning	scikit-learn, xgboost, lightgbm
-Deep Learning	    torch, torchvision, transformers
-LLM & RAG	        openai, langchain, langgraph, chromadb, sentence-transformers, faiss-cpu, tiktoken
-Data	            jupyter, ipykernel, plotly, polars
-APIs	            fastapi, uvicorn, pydantic
-MLOps	            mlflow, wandb, opentelemetry-sdk
-Utilities	        python-dotenv, requests, rich, typer
+<Table>
+<tr><td>Phase	</td><td>            Packages</td></tr>
+<tr><td>Core Python	  	</td><td>        numpy, pandas, matplotlib, seaborn, scipy</td></tr>
+<tr><td>Machine Learning	</td><td>  	scikit-learn, xgboost, lightgbm</td></tr>
+<tr><td>Deep Learning	 	</td><td>     torch, torchvision, transformers</td></tr>
+<tr><td>LLM & RAG	 	</td><td>         openai, langchain, langgraph, chromadb, sentence-transformers, faiss-cpu, tiktoken</td></tr>
+<tr><td>Data		</td><td>              jupyter, ipykernel, plotly, polars</td></tr>
+<tr><td>APIs		</td><td>              fastapi, uvicorn, pydantic</td></tr>
+<tr><td>MLOps	   	</td><td>           mlflow, wandb, opentelemetry-sdk</td></tr>
+<tr><td>Utilities	 	</td><td>         python-dotenv, requests, rich, typer</td></tr></table>
