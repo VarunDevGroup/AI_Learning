@@ -10,7 +10,7 @@ class Teacher(BaseModel):
     TeacherClass : int
     TeacherEmail : EmailStr
 
-    @field_validator('TeacherEmail')
+    @field_validator('TeacherEmail',mode="after")
     @classmethod
     def email_validator(cls, value):
         valid_domains=['dpsnt.com','dpsmc.com']
