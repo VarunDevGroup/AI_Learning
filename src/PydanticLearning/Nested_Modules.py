@@ -33,6 +33,14 @@ print(cls.Name)
 print(cls.Address[0].Line1,',', cls.Address[0].Line2)
 print(cls.Address[1].Line1,',', cls.Address[1].Line2)
 
+
+tmpdict=cls.model_dump()
+print(tmpdict)
+print(type(tmpdict))
+
+ldata=cls.model_dump_json()
+print(ldata)
+print(type(ldata))
 #AddObject=AddressDetail(**addDetails)
 
 #empData={'Name':'Varun', 'Address':[AddObject]}
