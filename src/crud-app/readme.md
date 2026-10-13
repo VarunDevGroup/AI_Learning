@@ -12,3 +12,10 @@
     <li>Implement Alembic for auto DB Update</li>
 </ol>
 
+## <i>Installing SQLAlchemy</i>
+Install SQLAlchemy and its optional dependencies for asynchronous programming.
+
+## Status
+
+
+- This line is red
